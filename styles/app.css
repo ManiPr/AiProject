@@ -416,7 +416,8 @@ __________________Main____________________
 }
 .explanation{
     background-color: #042c54;
-    width: 100rem;
+    /* width: 100rem; */
+    min-width: 30rem;
     margin: 0px 15rem
 }
 .explanation-header{

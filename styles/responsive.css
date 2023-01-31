@@ -21,6 +21,9 @@
         width: 45rem;
         height: 46rem;
     }
+    .explanation-header__line {
+        top: 4rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -40,6 +43,18 @@
     }
     .header__brands{
         margin-top: 0;
+    }
+    .explanation-content-header__title {
+        font-size: 1.6rem;
+    }
+    .explanation-specifications {
+        align-items: unset; 
+    }
+    .explanation-header__description { 
+        padding: 0 2rem;
+    }
+    .explanation-specification {
+        margin: 0 2rem;
     }
 }
 @media screen and (max-width: 768px) {
@@ -71,6 +86,35 @@
     }
     .newsletter__caption {
         font-size: 1rem;
+    }
+    .explanation {
+        min-width: 50rem;
+    } 
+     
+    .explanation-header__description {
+        font-size: 1.3rem;
+        padding: 0 4rem;
+        color: var(--Text);
+        margin-top: 3rem;
+    }
+    .explanation-header__description {
+        font-size: 1.1rem;
+        padding: 0;
+    }
+    .explanation {
+        min-width: 38rem;
+        margin-left: 10rem;
+    }
+    .explanation-header__title {
+        width: 30rem;
+        margin-left: -3rem;
+    }
+    .explanation-header__line {
+        top: 4rem;
+        margin-left: -3rem;
+    }
+    .explanation-content-header__title {
+        font-size: 1.5rem;
     }
 }
 @media screen and (max-width: 576px) {
@@ -116,10 +160,37 @@
     .header-wrapper__blur {
         width: 66rem;
     }
+    .explanation-specifications {
+        display: flex;
+        flex-direction: column;
+    }
+    .explanation-header__title {
+        margin-right: 0;
+        margin-top: 2rem;
+    }
+    .explanation {
+        min-width: 34rem;
+    }
+    .explanation-header {
+        flex-direction: column;
+    }
+    .explanation-header__line {
+        top: 2rem;
+        left: 3rem;
+    }
+    .explanation-header {
+        margin-left: 1rem;
+    }
+    .explanation-specification {
+        margin: 0 2rem;
+        margin-top: 2rem;
+    }
 }
 
-@media screen and (max-width: 460px) {
-   
+@media screen and (max-width: 480px) {
+    .explanation {
+        margin-left: -1rem;
+    }
 }
 
 @media screen and (max-width: 410px) {
@@ -146,6 +217,13 @@
     }
     .newsletter__caption {
         font-size: .7rem;
+    }
+    .explanation {
+        min-width: 30rem;
+    }
+    .explanation-header__title {
+        margin-right: -36px;
+        margin-top: 2rem;
     }
 }
 
