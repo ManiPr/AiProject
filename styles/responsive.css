@@ -21,9 +21,7 @@
         width: 45rem;
         height: 46rem;
     }
-    .explanation-header__line {
-        top: 4rem;
-    }
+   
 }
 
 @media screen and (max-width: 992px) {
@@ -109,10 +107,7 @@
         width: 30rem;
         margin-left: -3rem;
     }
-    .explanation-header__line {
-        top: 4rem;
-        margin-left: -3rem;
-    }
+   
     .explanation-content-header__title {
         font-size: 1.5rem;
     }
@@ -174,10 +169,7 @@
     .explanation-header {
         flex-direction: column;
     }
-    .explanation-header__line {
-        top: 2rem;
-        left: 3rem;
-    }
+   
     .explanation-header {
         margin-left: 1rem;
     }

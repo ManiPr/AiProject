@@ -414,6 +414,13 @@ __________________Main____________________
 .main{
     margin-top: 10rem;
 }
+/*
+
+=========================================== 
+__________________explanation______________
+===========================================
+
+*/
 .explanation{
     background-color: #042c54;
     /* width: 100rem; */
@@ -425,20 +432,21 @@ __________________Main____________________
     justify-content: space-between;
     align-items: center;
     margin-left: 8rem;
-   position: relative;
+    
 }
 .explanation-header__line{
     width: 3rem;
     height: .2rem;
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     position:absolute;
-    top: 3rem;
+    top: -1rem;
 }
 .explanation-header__title{
     width: 30rem;
     color: var(--white);
     font-size: 1.4rem;
     font-family: var(--bold-font);
+    position: relative;
 }
 .explanation-header__description{
    font-size: 1.3rem;
@@ -490,5 +498,76 @@ __________________Main____________________
 }
 .explanation-speification__caption{
     font-size: 1.3rem;
+    color: var(--Text);
+}
+
+/*
+
+=========================================== 
+__________________Future___________________
+===========================================
+
+*/
+
+.future{
+    margin-top: 10rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.future__blur{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #1B78DE;
+    filter: blur(282px);
+    z-index: -9999;
+}
+.future__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.future__header{
+    margin-top: -15rem;
+    margin-right:15rem;
+}
+.future__title{
+    width: 30rem;
+    font-size: 2.2rem;
+    font-family: var(--bold-font);
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.future__caption{
+    color:#FF8A71;
+    margin-top: 2rem;
+}
+.future__contents{
+    font-size: 1rem;
+   
+}
+.future__content{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    gap: 10rem;
+}
+.future-content-line{
+    width: 3rem;
+    height: .2rem;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    position:absolute;
+    top: -.5rem;
+}
+.future-content__title{
+    margin-top: -5rem;
+    font-size: 1.3rem;
+    width: 12rem;
+}
+.future-content__caption{
+    width: 265px;
+    height: 92px;
     color: var(--Text);
 }
