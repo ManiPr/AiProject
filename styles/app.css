@@ -425,7 +425,7 @@ __________________explanation______________
     background-color: #042c54;
     /* width: 100rem; */
     min-width: 30rem;
-    margin: 0px 15rem
+    margin: 0px 8rem
 }
 .explanation-header{
     display: flex;
@@ -499,6 +499,8 @@ __________________explanation______________
 .explanation-speification__caption{
     font-size: 1.3rem;
     color: var(--Text);
+    margin-bottom: 10rem;
+
 }
 
 /*

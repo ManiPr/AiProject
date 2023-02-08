@@ -21,7 +21,12 @@
         width: 45rem;
         height: 46rem;
     }
-   
+    .future__header {
+        margin-right: 4rem;
+    }
+   .explanation{
+    margin: 0px 2rem
+   }
 }
 
 @media screen and (max-width: 992px) {
@@ -54,6 +59,9 @@
     .explanation-specification {
         margin: 0 2rem;
     }
+    .future__content {
+        gap: 1rem;
+    }
 }
 @media screen and (max-width: 768px) {
     .nav__btn{
@@ -85,9 +93,7 @@
     .newsletter__caption {
         font-size: 1rem;
     }
-    .explanation {
-        min-width: 50rem;
-    } 
+   
      
     .explanation-header__description {
         font-size: 1.3rem;
@@ -99,10 +105,7 @@
         font-size: 1.1rem;
         padding: 0;
     }
-    .explanation {
-        min-width: 38rem;
-        margin-left: 10rem;
-    }
+    
     .explanation-header__title {
         width: 30rem;
         margin-left: -3rem;
@@ -110,6 +113,14 @@
    
     .explanation-content-header__title {
         font-size: 1.5rem;
+    }
+    .future__wrapper {
+        flex-direction: column;
+        margin-top: 20rem;
+    }
+    .future__contents {
+        font-size: 1rem;
+        margin-top: 4rem;
     }
 }
 @media screen and (max-width: 576px) {
@@ -163,9 +174,6 @@
         margin-right: 0;
         margin-top: 2rem;
     }
-    .explanation {
-        min-width: 34rem;
-    }
     .explanation-header {
         flex-direction: column;
     }
@@ -180,9 +188,39 @@
 }
 
 @media screen and (max-width: 480px) {
-    .explanation {
-        margin-left: -1rem;
+    .future__title {
+        font-size: 1.8rem;
     }
+    .future__header {
+        margin-right: 4rem;
+        padding-left: 5rem;
+    }
+    .future__contents {
+        font-size: 1rem;
+        margin-top: 6rem;
+    }
+    .future__content {
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .future-content-line {
+        top: -5.5rem;
+        left: 0;
+    }
+    .future-content__title {
+        margin-left: -15rem;
+    }
+    .future__blur {
+        position: absolute;
+        width: 356px;
+        height: 400px;
+        background: #1B78DE;
+        filter: blur(282px);
+        z-index: -9999;
+    }
+   
 }
 
 @media screen and (max-width: 410px) {
@@ -209,9 +247,6 @@
     }
     .newsletter__caption {
         font-size: .7rem;
-    }
-    .explanation {
-        min-width: 30rem;
     }
     .explanation-header__title {
         margin-right: -36px;
