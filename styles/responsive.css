@@ -27,6 +27,16 @@
    .explanation{
     margin: 0px 2rem
    }
+   .myapp__title {
+    font-size: 4rem;
+    width: 34rem;
+}
+   .myapp {
+    margin: 0px 2rem;
+}
+    .myapp__caption {
+        width: 45rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -61,6 +71,23 @@
     }
     .future__content {
         gap: 1rem;
+    }
+    .myapp__title {
+        width: 33rem;
+        font-size: 3rem;
+     }
+     
+     .myapp {
+        margin: 0;
+    }
+    .myapp__caption {
+        width: 30rem;
+    }
+    .register{
+        margin: 0;
+    }
+    .register__button {
+        padding: 1rem;
     }
 }
 @media screen and (max-width: 768px) {
@@ -121,6 +148,12 @@
     .future__contents {
         font-size: 1rem;
         margin-top: 4rem;
+    }
+    .register{
+        flex-direction: column;
+    }
+    .myapp {
+        flex-direction: column-reverse;
     }
 }
 @media screen and (max-width: 576px) {
@@ -184,6 +217,11 @@
     .explanation-specification {
         margin: 0 2rem;
         margin-top: 2rem;
+    }
+    .myapp__img {
+        width: 33rem;
+        height: 33rem;
+        margin-bottom: 10rem;
     }
 }
 

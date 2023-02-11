@@ -533,9 +533,9 @@ __________________Future___________________
     margin-top: -15rem;
     margin-right:15rem;
 }
-.future__title{
-    width: 30rem;
-    font-size: 2.2rem;
+.future__title {
+    width: 45rem;
+    font-size: 3.2rem;
     font-family: var(--bold-font);
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     -webkit-background-clip: text;
@@ -572,4 +572,95 @@ __________________Future___________________
     width: 265px;
     height: 92px;
     color: var(--Text);
+}
+
+/*
+
+=========================================== 
+__________________MyApp___________________
+===========================================
+
+*/
+.myapp{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10rem;
+}
+.myapp__img{
+    width: 45rem;
+    height: 45rem;
+    margin-bottom: 10rem;
+}
+.myapp__content{
+
+}
+.myapp__title{
+    font-family: var(--bold-font);
+    font-size: 4.1rem;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 60rem;
+}
+.myapp__caption{
+    color: var(--Text);
+    width: 60rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+.myapp__link{
+    color:#FF8A71;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+/*
+
+=========================================== 
+__________________Register___________________
+===========================================
+
+*/
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 4rem;
+    margin: 0 10rem;
+    border-radius: 1rem;
+}
+.register__wrapper{
+    
+}
+.register__content{
+
+}
+.register__link{
+    color: #0E0E0E;
+    font-size: 1rem;
+}
+.register__title{
+    font-family: var(--bold-font);
+    font-size: 2rem;
+}
+.register__button{
+    background-color: black;
+    border-radius: 2rem;
+    padding: 1.2rem;
+    color: var(--white);
+    cursor: pointer;
+    transition: .6s;
+}
+.register__button:hover{
+    background-color: var(--white);
+    color: black;
 }
