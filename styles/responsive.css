@@ -37,6 +37,17 @@
     .myapp__caption {
         width: 45rem;
     }
+    .footer__title {
+        font-size: 3rem;
+        margin: 0 30rem;
+    }
+    .blog-section__title {
+        font-size: 3.5rem;
+        margin: 5rem 42rem 10rem 10rem;
+    }
+    .blogs{
+        margin:0 0rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -88,6 +99,29 @@
     }
     .register__button {
         padding: 1rem;
+    }
+    .footer__title {
+        font-size: 3rem;
+        margin: 0px 18rem;
+    }
+    .footer__content {
+        margin: 2rem 0rem 0 10rem;
+    }
+    .big{
+        display: none;
+    }
+    .blogs {
+        display: flex;
+      justify-content: center;
+       align-items: center;
+        flex-wrap: wrap;
+    }
+    .blog-section__title {
+        margin: 5rem 0rem 10rem 10rem;
+    }
+    .future__title {
+        width: unset;
+        font-size: 3rem;
     }
 }
 @media screen and (max-width: 768px) {
@@ -155,6 +189,21 @@
     .myapp {
         flex-direction: column-reverse;
     }
+    .footer__title {
+        font-size: 3rem;
+        margin: 0px 9rem;
+    }
+    .footer__content {
+        flex-direction: column;
+        margin: 0 3rem;
+    }
+    .footer__left {
+        margin-top:0;
+    }
+    .blog-section__title {
+       font-size: 2.5rem;
+    }
+    
 }
 @media screen and (max-width: 576px) {
     .header-wrapper__title {
@@ -223,6 +272,13 @@
         height: 33rem;
         margin-bottom: 10rem;
     }
+    .footer__title {
+        font-size: 2.4rem;
+        margin: 0px 0rem;
+    }
+     .blog-section__title {
+       font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -258,11 +314,16 @@
         filter: blur(282px);
         z-index: -9999;
     }
-   
+  
+    .blog-section__title {
+        margin: 5rem 0rem 10rem 0;
+    }
 }
 
-@media screen and (max-width: 410px) {
-  
+@media screen and (max-width: 435px) {
+    .footer-list {
+         width:10rem;
+        }
 }
 @media screen and (max-width: 380px) {
     .header-wrapper__title {
@@ -270,6 +331,12 @@
     }
     .header-wrapper__caption {
         margin: 0 3rem;
+    }
+    .future__blur {
+        width: 31.1rem;
+    }
+    .explanation {
+        margin: 0 0 0 -1rem;
     }
 }
 

@@ -674,7 +674,7 @@ __________________Blog Section_____________
 
 */
 .blog-section{
-    
+ 
 }
 .blog-section__title{
     margin-bottom: 10rem;
@@ -686,34 +686,73 @@ __________________Blog Section_____________
     margin: 5rem 50rem 10rem 10rem;
 }
 .blogs{
-   
+    color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(2, 32rem);
+    grid-template-rows: repeat(2, 280px);
+    grid-template-areas: "blog-1 blog-2 blog-3" "blog-1 blog-4 blog-5";
+    margin:0 15rem;
+    gap: 3rem;
 }
 .big{
-    
-
+    margin-right: 5rem;
 }
-.big img{
-  
+.blog-1>.blog__content {
+    height: 35rem;
+    width: 25rem;
+}
+.blog-1>.blog__content>.blog__link{
+    margin-top: 14rem;
+}
+.blog-1>.blog__content>.blog__title{
+  font-size: 2rem;
+}
+.big img {
+    width: 25rem;
+    height: 20rem;
 }
 .blog{
-  
+ 
+}
+.blog-1{
+    grid-area:blog-1;
+}
+.blog-2{
+    grid-area:blog-2;
+}
+.blog-3{
+    grid-area: blog-3;
+}
+.blog-4{
+    grid-area: blog-4;
+}
+.blog-5{
+    grid-area: blog-5;
 }
 .blog__img {
-    width: 20rem;
-    height: 10rem;
+    width: 25rem;
+    height: 12rem;
+    z-index: -9999999999999;
 }
 .blog__content{
-    
+    background-color: #042C54;
+    width: 25rem;
+    height: 12rem;
+    margin-top: -1rem;
+    padding: 2rem;
 }
 .blog__data{
-
+    font-size: 1rem;
 }
 .blog__title{
-
+    font-size: 1.3rem;
 }
 .blog__link{
-
+    font-size: 1rem;
+    color: var(--white);
+    margin-top: -1rem;
 }
+
 /*
 
 =========================================== 
@@ -747,7 +786,7 @@ __________________Footer_____________
     align-items: center;
     justify-content: space-between;
     margin: 0 15rem;
-    margin:15rem 20rem 0 20rem ;
+    margin:2rem 10rem 0 10rem ;
 }
 .footer__left{
     margin-top: -10rem;
