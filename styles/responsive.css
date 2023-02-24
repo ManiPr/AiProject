@@ -338,6 +338,20 @@
     .explanation {
         margin: 0 0 0 -1rem;
     }
+    .myapp {
+        /* flex-direction: column-reverse; */
+    }
+    .myapp__title {
+        width: 33rem;
+        font-size: 2rem;
+    }
+    .myapp__caption {
+        width: 30rem;
+        font-size: 1rem;
+    }
+    .register {
+        padding: 1rem;    
+    }
 }
 
 @media screen and (max-width: 350px) {

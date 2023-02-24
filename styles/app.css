@@ -426,7 +426,7 @@ __________________explanation______________
     background-color: #042c54;
     /* width: 100rem; */
     min-width: 30rem;
-    margin: 0px 8rem
+    margin: 0px 8rem;
 }
 .explanation-header{
     display: flex;
@@ -764,6 +764,7 @@ __________________Footer_____________
     text-align: center;
     background-color: #031B34;
     padding-top: 5rem;
+    margin-top: 5rem;
 }
 .footer__title{
     margin-bottom: 5rem;
